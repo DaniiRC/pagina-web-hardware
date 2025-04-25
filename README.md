@@ -1,1 +1,1 @@
-# pagina-wen-hardware
+# pagina-web-hardware
