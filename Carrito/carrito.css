@@ -2,25 +2,26 @@
     background-color: orange;
     height: 150px;
     width: 100%;
-    line-height: 270%;
-    
-    
-
-    
-
+    line-height: 200%;
+    position:absolute;
 }
 .cabecera p {
     text-align: left;
     font-size:50px;
-    color:White;
+    color:orange;
     font-weight:bolder;
     margin-left:50px;
+    margin-top:60px;
+    /*ALEX SUBNORMAL*/
+    filter: drop-shadow(3px 3px 0 white) 
+            
 }
 .cabecera img {
     float: right;
-    height: 100px;
-    margin:20px;
+    height:100px;
+  
     margin-right:70px;
+    margin-top:-120px;
 
     filter: drop-shadow(3px 3px 0 white) 
             drop-shadow(-3px -3px 0 white);
