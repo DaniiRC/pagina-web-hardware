@@ -9,8 +9,14 @@
 <body>
   <div class="container">
     <div class="image-section">
-      <img src="imagenes/sup.png" alt="Imagen 1" class="side-image"/>
-      <img src="imagen2.jpg" alt="Imagen 2" class="side-image"/>
+      <div class="image-text-container">
+        <img src="imagenes/sup.png" alt="Imagen 1" class="side-image"/>
+        <p class="image-text">Texto descriptivo de la imagen 1</p>
+      </div>
+      <div class="image-text-container">
+        <img src="imagenes/medallon.png" alt="Imagen 2" class="side-image"/>
+        <p class="image-text">Texto descriptivo de la imagen 2</p>
+      </div>
     </div>
     <div class="login-section">
       <img src="imagenes/pccompologo.jpg" alt="Logo" class="logo"/>
@@ -22,7 +28,7 @@
         <label for="password">Contraseña</label>
         <input type="password" id="password" name="password" required />
 
-        <button>Entrar</button>
+        <a href="pagina-destino.html" class="button-link">Entrar</a>
       </form>
     </div>
   </div>
