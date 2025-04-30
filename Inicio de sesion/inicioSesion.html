@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesion</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="css/estilo_pag.css"/>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="image-section">
+      <div class="image-text-container">
+        <img src="imagenes/sup.png" alt="Imagen 1" class="side-image"/>
+        <p class="image-text"><strong>Gestiona tus pedidos </strong><br>
+          Ten el control de todos tus pedidos y recibe notificaciones con el seguimiento</p>
+      </div>
+      <div class="image-text-container">
+        <img src="imagenes/medallon.png" alt="Imagen 2" class="side-image"/>
+        <p class="image-text"><strong>Lista de deseos personalizada</strong><br>
+          Guarda tus productos favoritos en las listas de deseos personalizadas</p> 
+      </div>
+    </div>
+    <div class="login-section">
+      <h2>Iniciar Sesión</h2>
+      <form>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+
+        <a href="../Index/index.html" class="button-link">Entrar</a>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
