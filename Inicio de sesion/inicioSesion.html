@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesion</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="css/estilo_pag.css"/>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="image-section">
+      <img src="imagenes/sup.png" alt="Imagen 1" class="side-image"/>
+      <img src="imagen2.jpg" alt="Imagen 2" class="side-image"/>
+    </div>
+    <div class="login-section">
+      <img src="imagenes/pccompologo.jpg" alt="Logo" class="logo"/>
+      <h2>Iniciar Sesión</h2>
+      <form>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+
+        <button>Entrar</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
